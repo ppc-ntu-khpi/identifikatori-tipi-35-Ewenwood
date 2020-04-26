@@ -2,11 +2,12 @@ package test;
 
 import domain.Exercise;
 
+import java.io.IOException;
+
 public class TestResult {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        Exercise.Calculate();
     }
 }
